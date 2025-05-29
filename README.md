@@ -18,7 +18,7 @@ PandaToken Tracker is a sleek, ESP32-powered display project that pulls real-tim
 
 ![Front](Images/0.jpg)
 <br>
-<img src="Images/preview.gif" width="250" height="250"/>
+<img src="Images/Sample.gif" width="250" height="250"/>
 </div>
 
 ---
