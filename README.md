@@ -48,7 +48,7 @@ PandaToken Tracker is a sleek, ESP32-powered display project that pulls real-tim
 - (Optional) microSD, buttons, or touch for future expansion
 
 ### 🧩 Required Libraries
-Install via Arduino Library Manager:
+Install via Arduino Library Manager by searching the name of the lib:
 
 - `WiFiManager` Library found [HERE](https://github.com/tzapu/WiFiManager)
 - `TFT_eSPI` Library found [HERE](https://github.com/Bodmer/TFT_eSPI)
