@@ -7,10 +7,6 @@
 <br>
 
 <div align="center" style="max-width: 100%; overflow: visible;">
-  <img 
-    src="https://github.com/ATOMNFT/CM-Box/blob/main/Images/Repolike.svg" 
-    style="width: 100%; height: 110px; max-width: 800px;" 
-    alt="Responsive SVG">
 	
 # 🐼 PandaToken Tracker
 PandaToken Tracker is a sleek, ESP32-powered display project that pulls real-time token data from the DexScreener API. With a vibrant TFT interface, embedded Wi-Fi setup via captive portal, and support for flashing via web tools, it’s ideal for crypto enthusiasts, token creators, or hardware NFT projects.
