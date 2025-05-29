@@ -1,6 +1,6 @@
 ![Platform](https://img.shields.io/badge/platform-ESP32-blue)
 ![Display](https://img.shields.io/badge/display-TFT%202.8%22-orange)
-![License](https://img.shields.io/github/license/ATOMNFT/Abstract-Panda-Ticker)
+![License](https://img.shields.io/github/license/ATOMNFT/Panda-Token-Ticker)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 
 ![Header](Images/mainheader.png)
