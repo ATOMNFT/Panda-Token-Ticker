@@ -21,10 +21,6 @@ PandaToken Tracker is a sleek, ESP32-powered display project that pulls real-tim
 
 ---
 
-<div style="background-color: #f2f2f2; border: 1px solid #ddd; padding: 10px;">
-  ✨ Features 
-</div>
-
 ## ✨ Features
 
 - 📡 **Live Token Tracking** via DexScreener
