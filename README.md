@@ -16,7 +16,7 @@
 PandaToken Tracker is a sleek, ESP32-powered display project that pulls real-time token data from the DexScreener API. With a vibrant TFT interface, embedded Wi-Fi setup via captive portal, and support for flashing via web tools, it’s ideal for crypto enthusiasts, token creators, or hardware NFT projects.
 
 
-![Front](Images/0.jpg)  
+![Front](Images/0.jpg) ![Preview](Images/preview.gif =250x250)
 </div>
 
 ---
