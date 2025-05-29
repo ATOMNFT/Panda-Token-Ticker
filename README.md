@@ -66,8 +66,8 @@ Install via Arduino Library Manager:
 ### 🌍 Option 2: Web Flasher (Recommended)
 Use our hosted **Web Flasher** tool — no IDE required!
 
-> 🔗 **[Launch Web Flasher](https://yourdomain.com/flasher)**  
-> *(Replace with your actual flashing tool URL)*
+> 🔗 **[Launch Web Flasher](https://#.com)**  
+
 
 ---
 
