@@ -68,7 +68,7 @@ Install via Arduino Library Manager by searching the name of the lib:
 ### 🌍 Option 2: Web Flasher (Recommended)
 Use our hosted **Web Flasher** tool — no IDE required!
 
-> 🔗 **[Launch Web Flasher](https://#.com)**  
+> 🔗 **[Launch Web Flasher](https://atomnft.github.io/Panda-Token-Ticker/flash0.html)**  
 
 
 ---
