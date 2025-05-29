@@ -34,8 +34,8 @@ PandaToken Tracker is a sleek, ESP32-powered display project that pulls real-tim
   - USD Price (live)
   - 24h % Change (color-coded)
   - Liquidity (formatted as K/M/B)
-- 🔌 **OTA-ready architecture** for future updates
-- 📦 **Pre-flash ready** – ideal for distribution/sales
+
+
 
 ---
 
