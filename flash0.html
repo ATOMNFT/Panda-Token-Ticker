@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Abstract Panda Ticker Installer</title>
+  <link rel="icon" href="Images/favicon.ico" type="image/x-icon">
+  <img src="Images/flasherheader.png" alt="Logo" class="logo">
+  <meta name="description" content="Easily allows users to install Abstract Panda Ticker on the ESP32-2432S028R." />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="color-scheme" content="dark light" />
+  <style>
+    body {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+      padding: 0;
+      margin: 0;
+      line-height: 1.4;
+    }
+    fieldset {
+      margin: 20px;
+      padding: 14px;
+      border-radius: 20px;
+      background-color: rgba(0, 195, 0, 0.2);
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      display: inline-block;
+      border: none;
+    }
+    legend {
+      font-size: 28px;
+      font-weight: bold;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(2px);
+      border-radius: 20px;
+      padding: 10px 20px;
+      color: white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    select {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      background-color: grey;
+      color: white;
+      font-size: 16px;
+      box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+    }
+    select:focus {
+      outline: none;
+      box-shadow: 0 0 10px #3cff33;
+    }
+    .invisible {
+      visibility: hidden;
+    }
+    .hidden {
+      display: none;
+    }
+    esp-web-install-button[install-unsupported] {
+      visibility: inherit;
+    }
+    .logo {
+      max-width: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footer {
+      color: #FFF;
+      margin-bottom: 0px;
+      margin-top: 8em;
+      border-top: 2px solid #00ff40;
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    .wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: ##181414;
+        color: #fff;
+      }
+      a {
+        color: #00FFFF;
+      }
+    }
+  </style>
+  <script type="module" src="https://unpkg.com/esp-web-tools@8.0.1/dist/web/install-button.js?module"></script>
+</head>
+<body>
+  <center>
+	<p class="wrapper" align="center">
+	  <span style="font-size: 20px; color: #FF1493;">This utility is designed to flash Abstract Panda Ticker onto a ESP32-2432S028R.</span>
+	</p>
+	<div style="text-align: center; margin: 20px auto; max-width: 600px; padding: 15px; border: 2px solid #00ff40; border-radius: 15px; background-color: rgba(255, 255, 255, 0.1); box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.3); background-image: url('Images/usb-plug.gif'); background-size: 12% auto; background-position: left 0% top -2px; background-repeat: no-repeat;">
+	  <p style="color: #00FFFF; font-size: 18px; font-weight: bold; margin-bottom: 10px;">Abstract Panda Ticker Web Flasher</p>
+	  <p style="color: #FFF; font-size: 16px; margin: 0;">
+		Your gateway to effortlessly installing Abstract Panda Ticker firmware. Designed with a sleek web interface, it transforms
+		firmware flashing into a fast, hassle-free experience.
+	  </p>
+	</div>
+    <fieldset>
+      <legend>Abstract Panda Ticker</legend>
+      <select id="select-Abstract Panda Ticker">
+        <option value="" selected disabled>Choose below</option>
+        <option value="Abstract Panda Ticker">Abstract Panda Ticker V1</option>
+      </select>
+    </fieldset>
+    <p class="button-row" align="center">
+      <esp-web-install-button class="invisible"></esp-web-install-button>
+    </p>
+  </center>
+  <script>
+    document.getElementById('select-Abstract Panda Ticker').addEventListener('change', (event) => {
+      const button = document.querySelector('esp-web-install-button');
+      button.manifest = `web/manifest_${event.target.value}.json`;
+      button.classList.remove('invisible');
+    });
+
+    // Visitor counter
+    window.addEventListener('DOMContentLoaded', (event) => {
+      if (localStorage.getItem('page_view_count')) {
+        localStorage.setItem('page_view_count', Number(localStorage.getItem('page_view_count')) + 1);
+      } else {
+        localStorage.setItem('page_view_count', 1);
+      }
+      document.getElementById('visitor-counter').innerText = `Visitor count: ${localStorage.getItem('page_view_count')}`;
+    });
+  </script>
+  <div class="footer">
+    ✨ <a href="https://github.com/ATOMNFT/Abstract-Panda-Ticker" style="color:#00FFFF;">Abstract Panda Ticker</a> &mdash;
+    Installer powered by &mdash; <a href="https://esphome.github.io/esp-web-tools/" style="color:#00FFFF;"> ESP Web Tools</a> 🛠️
+    <p id="visitor-counter"></p>
+  </div>
+</body>
+</html>
