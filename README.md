@@ -75,8 +75,6 @@ Use our hosted **Web Flasher** tool — no IDE required!
 
 ## 📶 Wi-Fi Setup (First-Time or Reset)
 
-If no saved credentials are found:
-
 1. Device boots in **Access Point mode**
 2. Connect to SSID: `PANDA-TICKER`  
    Password: `trackmypanda`
