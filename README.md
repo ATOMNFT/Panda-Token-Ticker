@@ -51,10 +51,10 @@ PandaToken Tracker is a sleek, ESP32-powered display project that pulls real-tim
 Install via Arduino Library Manager:
 
 - `WiFiManager` Library found [HERE](https://github.com/tzapu/WiFiManager)
-- `TFT_eSPI`
-- `TJpg_Decoder`
-- `ArduinoJson`
-- `WiFi` (built-in)
+- `TFT_eSPI` Library found [HERE](https://github.com/Bodmer/TFT_eSPI)
+- `TJpg_Decoder` Library found [HERE](https://github.com/Bodmer/TJpg_Decoder)
+- `ArduinoJson` Info found [HERE](https://arduinojson.org/?utm_source=meta&utm_medium=library.properties)
+- `WiFi` (built-in) Info found [HERE](https://docs.arduino.cc/libraries/wifi/) 
 
 ---
 
