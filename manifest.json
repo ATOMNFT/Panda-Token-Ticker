@@ -1,0 +1,6 @@
+{
+  "name": "Panda-Token-Ticker",
+  "version": "1.0",
+  "description": "A crypto ticker that displays info about Abstract Panda Token.",
+  "icon": "Images/cyd-icon.png"
+}
